@@ -1,0 +1,26 @@
+#lang racket
+
+;; Exercises 3: Direct-style and tail recursion
+(provide
+      truncate-t
+      truncate-d
+      filter-t)
+
+;; If we have a list, how can we truncate the list from index i to j?
+;; Write a function truncate takes 3 param, i j and list return the
+;; list starting at i and end at j, (truncate 2 5 '(0 1 2 3 4 5 6)) ->
+;; '(2 3 4 5).
+(define (truncate-d now i j lst)
+    'todo)
+
+;; Rewrite truncate to use tail-recursion
+;;
+;; HINT: In tail recursion you may need to revrese the
+;;; result when return it You can assume i < j and j <= length of lst
+(define (truncate-t now i j lst)
+    'todo)
+
+;; The function filter-t should filter lst so that it returns the
+;; subset of lst that satisfies func.
+(define (filter-t func lst)
+    'todo)
